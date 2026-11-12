@@ -1,0 +1,28 @@
+{
+  "name": "orbit-ai-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orbit: an AI chatbot web app with streaming responses, personas and syntax-highlighted code blocks (React + Vite).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "author": "Junaideen Risny Suha",
+  "license": "MIT",
+  "dependencies": {
+    "dompurify": "^3.1.0",
+    "highlight.js": "^11.10.0",
+    "marked": "^12.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "jsdom": "^25.0.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
